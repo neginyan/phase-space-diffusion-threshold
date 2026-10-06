@@ -1,0 +1,13 @@
+{
+ "dyn": "ham",
+ "ratio": 0.9,
+ "noise_seed": 1,
+ "K_sde": 4000,
+ "N": 8000,
+ "paired_KL": 0.0012101587400341896,
+ "log_vr": -0.015657967866793354,
+ "KL_to_truth_fixed": 0.0007291107153553078,
+ "log_vr_to_truth_fixed": 0.01890998367279643,
+ "KL_to_truth_naive": 0.0008064510742928667,
+ "log_vr_to_truth_naive": 0.0032520158060029853
+}

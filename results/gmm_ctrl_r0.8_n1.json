@@ -1,0 +1,13 @@
+{
+ "dyn": "ctrl",
+ "ratio": 0.8,
+ "noise_seed": 1,
+ "K_sde": 4000,
+ "N": 8000,
+ "paired_KL": 0.00630248883936968,
+ "log_vr": -0.03751299880087754,
+ "KL_to_truth_fixed": 0.0015444393212882268,
+ "log_vr_to_truth_fixed": 0.02711517607143373,
+ "KL_to_truth_naive": 0.004234739138206281,
+ "log_vr_to_truth_naive": -0.01039782272944364
+}
