@@ -123,7 +123,7 @@ This work builds on T. Namba, *Sharp criterion for the coarse-grained arrow of t
 
 ## Acknowledgments
 
-The research was carried out with AI assistants: Google Gemini (Gemini 3.8 Flash), OpenAI ChatGPT and Anthropic Claude. The code and experiments in this repository were written with Anthropic Claude.
+The research was carried out with AI assistants: Google Gemini, OpenAI ChatGPT and Anthropic Claude. The code and experiments in this repository were written with Anthropic Claude.
 
 ## License
 
