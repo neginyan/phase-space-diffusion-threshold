@@ -1,6 +1,12 @@
 # phase-space-diffusion-threshold
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23180609.svg)](https://doi.org/10.5281/zenodo.23180609)
 [![verify](https://github.com/neginyan/phase-space-diffusion-threshold/actions/workflows/verify.yml/badge.svg)](https://github.com/neginyan/phase-space-diffusion-threshold/actions/workflows/verify.yml)
+
+Verification code for the paper
+
+> T. Namba, *A stretching-rate threshold for phase-space diffusion models with isotropic marginal noise schedules*, preprint (2026),
+> [doi:10.5281/zenodo.23181225](https://doi.org/10.5281/zenodo.23181225).
 
 Code, results and verification for a study of phase-space diffusion models whose noise schedule is specified by its forward marginals, as an isotropic noise level σ(t)² I.
 
@@ -76,6 +82,44 @@ All experiments and the verification run used Python 3.13.16 with numpy 2.5.3, s
 
 Day-1 jobs: `python run_sweep.py ham <seed> <ratio>` for seeds 0, 1 and ratios 0.6, 0.8, 0.9, 1.0, 1.1, 1.3.
 Pure NumPy (score network with hand-written backpropagation and Adam).
+
+## How to cite
+
+If you use this code, please cite the paper,
+
+> T. Namba, *A stretching-rate threshold for phase-space diffusion models with isotropic marginal noise schedules*, preprint (2026),
+> [doi:10.5281/zenodo.23181225](https://doi.org/10.5281/zenodo.23181225),
+
+and the archived version of the code:
+
+> T. Namba, *phase-space-diffusion-threshold: verification code for "A stretching-rate threshold for phase-space diffusion models with isotropic marginal noise schedules"*, version v1.0.0, Zenodo (2026),
+> [doi:10.5281/zenodo.23180609](https://doi.org/10.5281/zenodo.23180609).
+
+```bibtex
+@misc{namba2026threshold,
+  author    = {Namba, Taishi},
+  title     = {A stretching-rate threshold for phase-space diffusion models
+               with isotropic marginal noise schedules},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23181225},
+  note      = {Preprint}
+}
+
+@software{namba2026thresholdcode,
+  author    = {Namba, Taishi},
+  title     = {phase-space-diffusion-threshold: verification code for
+               ``A stretching-rate threshold for phase-space diffusion models
+               with isotropic marginal noise schedules''},
+  version   = {v1.0.0},
+  publisher = {Zenodo},
+  year      = {2026},
+  doi       = {10.5281/zenodo.23180609},
+  url       = {https://doi.org/10.5281/zenodo.23180609}
+}
+```
+
+This work builds on T. Namba, *Sharp criterion for the coarse-grained arrow of time in Hamiltonian dynamics*, preprint (2026), [doi:10.5281/zenodo.23163727](https://doi.org/10.5281/zenodo.23163727).
 
 ## Acknowledgments
 
