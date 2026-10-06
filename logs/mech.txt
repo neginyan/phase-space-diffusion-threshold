@@ -1,0 +1,12 @@
+{'a': 0.0, 'within_share_x1': 1.0, 'noise_seed': 0, 'paired_KL': np.float64(0.04184), 'log_vr': -0.202, 'log_var_ratio_x1': -0.19845, 'log_var_ratio_x2': -0.20457}
+{'a': 0.5, 'within_share_x1': 0.75, 'noise_seed': 0, 'paired_KL': np.float64(0.04107), 'log_vr': -0.1966, 'log_var_ratio_x1': -0.18977, 'log_var_ratio_x2': -0.20457}
+{'a': 0.8, 'within_share_x1': 0.36, 'noise_seed': 0, 'paired_KL': np.float64(0.03663), 'log_vr': -0.15845, 'log_var_ratio_x1': -0.12901, 'log_var_ratio_x2': -0.20487}
+{'a': 0.9, 'within_share_x1': 0.19, 'noise_seed': 0, 'paired_KL': np.float64(0.03385), 'log_vr': -0.12323, 'log_var_ratio_x1': -0.07401, 'log_var_ratio_x2': -0.20489}
+{'a': 0.95, 'within_share_x1': 0.0975, 'noise_seed': 0, 'paired_KL': np.float64(0.03265), 'log_vr': -0.10006, 'log_var_ratio_x1': -0.03812, 'log_var_ratio_x2': -0.2049}
+{'a': 0.98, 'within_share_x1': 0.0396, 'noise_seed': 0, 'paired_KL': np.float64(0.03199), 'log_vr': -0.08632, 'log_var_ratio_x1': -0.01679, 'log_var_ratio_x2': -0.2049}
+{'a': 0.0, 'within_share_x1': 1.0, 'noise_seed': 1, 'paired_KL': np.float64(0.04085), 'log_vr': -0.19978, 'log_var_ratio_x1': -0.19647, 'log_var_ratio_x2': -0.20195}
+{'a': 0.5, 'within_share_x1': 0.75, 'noise_seed': 1, 'paired_KL': np.float64(0.04009), 'log_vr': -0.1944, 'log_var_ratio_x1': -0.18778, 'log_var_ratio_x2': -0.20195}
+{'a': 0.8, 'within_share_x1': 0.36, 'noise_seed': 1, 'paired_KL': np.float64(0.03562), 'log_vr': -0.15578, 'log_var_ratio_x1': -0.1261, 'log_var_ratio_x2': -0.202}
+{'a': 0.9, 'within_share_x1': 0.19, 'noise_seed': 1, 'paired_KL': np.float64(0.03299), 'log_vr': -0.12222, 'log_var_ratio_x1': -0.07342, 'log_var_ratio_x2': -0.202}
+{'a': 0.95, 'within_share_x1': 0.0975, 'noise_seed': 1, 'paired_KL': np.float64(0.03188), 'log_vr': -0.10012, 'log_var_ratio_x1': -0.03911, 'log_var_ratio_x2': -0.202}
+{'a': 0.98, 'within_share_x1': 0.0396, 'noise_seed': 1, 'paired_KL': np.float64(0.03088), 'log_vr': -0.08464, 'log_var_ratio_x1': -0.01568, 'log_var_ratio_x2': -0.202}

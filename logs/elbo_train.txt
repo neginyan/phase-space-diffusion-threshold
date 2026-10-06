@@ -1,0 +1,65 @@
+/home/claude/psdt/psdt.py:61: RuntimeWarning: overflow encountered in exp
+  def silu(a):  return a / (1 + np.exp(-a))
+/home/claude/psdt/psdt.py:63: RuntimeWarning: overflow encountered in exp
+  sg = 1 / (1 + np.exp(-a)); return sg * (1 + a * (1 - sg))
+/home/claude/psdt/psdt.py:61: RuntimeWarning: overflow encountered in exp
+  def silu(a):  return a / (1 + np.exp(-a))
+/home/claude/psdt/psdt.py:63: RuntimeWarning: overflow encountered in exp
+  sg = 1 / (1 + np.exp(-a)); return sg * (1 + a * (1 - sg))
+0 0.9 final weighted -3.158673492461566e+20 mse 1.0528979312738647e+21 mse_u 5.248628197704253e+20
+0 0.8 final weighted -3.464006380794666e+21 mse 5.773344950028001e+21 mse_u 2.8927106769678825e+21
+0 1.0 final weighted 5.525 mse 2.935 mse_u 1.007
+0 1.1 final weighted 6.106 mse 1.879 mse_u 0.502
+/home/claude/psdt/psdt.py:61: RuntimeWarning: overflow encountered in exp
+  def silu(a):  return a / (1 + np.exp(-a))
+/home/claude/psdt/psdt.py:63: RuntimeWarning: overflow encountered in exp
+  sg = 1 / (1 + np.exp(-a)); return sg * (1 + a * (1 - sg))
+0 1.3 final weighted 6.95 mse 1.824 mse_u 0.498
+/home/claude/psdt/psdt.py:61: RuntimeWarning: overflow encountered in exp
+  def silu(a):  return a / (1 + np.exp(-a))
+/home/claude/psdt/psdt.py:63: RuntimeWarning: overflow encountered in exp
+  sg = 1 / (1 + np.exp(-a)); return sg * (1 + a * (1 - sg))
+1 0.8 final weighted -9.783189725870614e+20 mse 1.6305319163849967e+21 mse_u 8.152593310045475e+20
+1 0.9 final weighted -5.044844201891162e+20 mse 1.6816221253173903e+21 mse_u 8.40855468309486e+20
+1 1.0 final weighted 4.568 mse 2.847 mse_u 1.167
+1 1.1 final weighted 5.048 mse 1.67 mse_u 0.54
+/home/claude/psdt/psdt.py:61: RuntimeWarning: overflow encountered in exp
+  def silu(a):  return a / (1 + np.exp(-a))
+/home/claude/psdt/psdt.py:63: RuntimeWarning: overflow encountered in exp
+  sg = 1 / (1 + np.exp(-a)); return sg * (1 + a * (1 - sg))
+1 1.3 final weighted 5.722 mse 1.625 mse_u 0.506
+/home/claude/psdt/psdt.py:61: RuntimeWarning: overflow encountered in exp
+  def silu(a):  return a / (1 + np.exp(-a))
+/home/claude/psdt/psdt.py:63: RuntimeWarning: overflow encountered in exp
+  sg = 1 / (1 + np.exp(-a)); return sg * (1 + a * (1 - sg))
+2 0.8 final weighted -1.871203159680118e+21 mse 3.118672151129159e+21 mse_u 1.5567500266127066e+21
+2 0.9 final weighted -6.13342619109231e+20 mse 2.0444797115827073e+21 mse_u 1.0222872196790207e+21
+2 1.1 final weighted 5.415 mse 1.749 mse_u 0.506
+2 1.0 final weighted 4.883 mse 2.828 mse_u 1.057
+/home/claude/psdt/psdt.py:61: RuntimeWarning: overflow encountered in exp
+  def silu(a):  return a / (1 + np.exp(-a))
+/home/claude/psdt/psdt.py:63: RuntimeWarning: overflow encountered in exp
+  sg = 1 / (1 + np.exp(-a)); return sg * (1 + a * (1 - sg))
+2 1.3 final weighted 6.43 mse 1.736 mse_u 0.488
+/home/claude/psdt/psdt.py:61: RuntimeWarning: overflow encountered in exp
+  def silu(a):  return a / (1 + np.exp(-a))
+/home/claude/psdt/psdt.py:63: RuntimeWarning: overflow encountered in exp
+  sg = 1 / (1 + np.exp(-a)); return sg * (1 + a * (1 - sg))
+3 0.8 final weighted -9.976995744696487e+20 mse 1.66283283033474e+21 mse_u 8.312887314013547e+20
+3 1.0 final weighted 5.337 mse 2.902 mse_u 1.046
+3 0.9 final weighted -4.690957291999941e+20 mse 1.5636524348922926e+21 mse_u 7.819040499196533e+20
+3 1.3 final weighted 6.72 mse 1.786 mse_u 0.515
+3 1.1 final weighted 5.841 mse 1.79 mse_u 0.495
+/home/claude/psdt/psdt.py:61: RuntimeWarning: overflow encountered in exp
+  def silu(a):  return a / (1 + np.exp(-a))
+/home/claude/psdt/psdt.py:63: RuntimeWarning: overflow encountered in exp
+  sg = 1 / (1 + np.exp(-a)); return sg * (1 + a * (1 - sg))
+/home/claude/psdt/psdt.py:61: RuntimeWarning: overflow encountered in exp
+  def silu(a):  return a / (1 + np.exp(-a))
+/home/claude/psdt/psdt.py:63: RuntimeWarning: overflow encountered in exp
+  sg = 1 / (1 + np.exp(-a)); return sg * (1 + a * (1 - sg))
+4 0.9 final weighted -4.451378137906206e+20 mse 1.4837972279157113e+21 mse_u 7.439076524118273e+20
+4 0.8 final weighted -1.8659731938147476e+21 mse 3.1099555159481154e+21 mse_u 1.5501757985252505e+21
+4 1.1 final weighted 6.338 mse 1.852 mse_u 0.52
+4 1.0 final weighted 5.778 mse 2.872 mse_u 1.026
+4 1.3 final weighted 7.532 mse 1.875 mse_u 0.496

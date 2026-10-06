@@ -1,0 +1,15 @@
+ham 0.6 4000 {'paired_KL': np.float64(0.02291), 'log_vr': -0.05976, 'log_vr_to_truth_fixed': 0.03294, 'KL_to_truth_fixed': np.float64(0.00153)}
+ham 0.8 4000 {'paired_KL': np.float64(0.00611), 'log_vr': -0.03255, 'log_vr_to_truth_fixed': 0.01485, 'KL_to_truth_fixed': np.float64(0.00113)}
+ham 0.8 8000 {'paired_KL': np.float64(0.00612), 'log_vr': -0.03289, 'log_vr_to_truth_fixed': 0.00651, 'KL_to_truth_fixed': np.float64(0.00103)}
+ham 0.6 8000 {'paired_KL': np.float64(0.02256), 'log_vr': -0.05915, 'log_vr_to_truth_fixed': 0.01857, 'KL_to_truth_fixed': np.float64(0.00082)}
+ham 0.8 16000 {'paired_KL': np.float64(0.00606), 'log_vr': -0.03098, 'log_vr_to_truth_fixed': 0.00077, 'KL_to_truth_fixed': np.float64(0.00103)}
+ham 0.6 16000 {'paired_KL': np.float64(0.02251), 'log_vr': -0.05867, 'log_vr_to_truth_fixed': 0.0111, 'KL_to_truth_fixed': np.float64(0.00061)}
+ham 0.9 4000 {'paired_KL': np.float64(0.00111), 'log_vr': -0.01688, 'log_vr_to_truth_fixed': 0.00907, 'KL_to_truth_fixed': np.float64(0.00121)}
+ctrl 0.8 4000 {'paired_KL': np.float64(0.00631), 'log_vr': -0.03614, 'log_vr_to_truth_fixed': 0.04107, 'KL_to_truth_fixed': np.float64(0.00188)}
+ham 0.9 8000 {'paired_KL': np.float64(0.0011), 'log_vr': -0.01651, 'log_vr_to_truth_fixed': 0.00151, 'KL_to_truth_fixed': np.float64(0.00123)}
+ctrl 0.8 8000 {'paired_KL': np.float64(0.00634), 'log_vr': -0.03596, 'log_vr_to_truth_fixed': 0.02853, 'KL_to_truth_fixed': np.float64(0.00134)}
+ham 0.9 16000 {'paired_KL': np.float64(0.00114), 'log_vr': -0.01712, 'log_vr_to_truth_fixed': -0.00111, 'KL_to_truth_fixed': np.float64(0.00123)}
+ctrl 0.8 16000 {'paired_KL': np.float64(0.00624), 'log_vr': -0.0357, 'log_vr_to_truth_fixed': 0.02275, 'KL_to_truth_fixed': np.float64(0.00116)}
+ctrl 0.9 4000 {'paired_KL': np.float64(0.0015), 'log_vr': -0.013, 'log_vr_to_truth_fixed': 0.03194, 'KL_to_truth_fixed': np.float64(0.00117)}
+ctrl 0.9 8000 {'paired_KL': np.float64(0.00149), 'log_vr': -0.01371, 'log_vr_to_truth_fixed': 0.02123, 'KL_to_truth_fixed': np.float64(0.00085)}
+ctrl 0.9 16000 {'paired_KL': np.float64(0.0015), 'log_vr': -0.01457, 'log_vr_to_truth_fixed': 0.01591, 'KL_to_truth_fixed': np.float64(0.00079)}

@@ -1,0 +1,115 @@
+[PASS] kappa(Hamiltonian, omega=2) = |1-omega^2|/2 = 1.5 
+[PASS] kappa(CLD, beta=0.5) = beta/2 
+[PASS] kappa(CLD, beta=1.0) = beta/2 
+[PASS] kappa(CLD, beta=4.0) = beta/2 
+[PASS] tr B_CLD = -4 beta per position dimension (d=2: -8 beta) 
+[PASS] G formula matches definition 
+[PASS] G formula matches definition 
+[PASS] G >= 0  <=>  r >= kappa (ham) 
+[PASS] G >= 0  <=>  r >= kappa (cld) 
+[PASS] sqrt(G+)^2 = G+ 
+[PASS] G+ >= 0 and G+ - G >= 0 
+[PASS] batch_M interpolation rel. error < 1e-5 (3.8e-08)
+[PASS] batch_M interpolation rel. error < 1e-5 (8.5e-07)
+[PASS] forward marginal covariance (MC, 4e5 samples) 
+[PASS] dC/dt = BC + CB^T + G (also for indefinite G) 
+[PASS] dC/dt = BC + CB^T + G (also for indefinite G) 
+[PASS] Theorem 4 (D=0, ODE) exact, ham r/k=0.6 (4.4e-16)
+[PASS] Theorem 4 (D=G+, corrected) exact, ham r/k=0.6 (1.1e-16)
+[PASS] Proposition 6: clipped sampler output wrong for r < kappa (Gaussian), ham r/k=0.6 (4.1e-02)
+[PASS] Theorem 4 (D=0, ODE) exact, ham r/k=0.9 (-1.6e-17)
+[PASS] Theorem 4 (D=G+, corrected) exact, ham r/k=0.9 (1.1e-16)
+[PASS] Proposition 6: clipped sampler output wrong for r < kappa (Gaussian), ham r/k=0.9 (2.4e-03)
+[PASS] Theorem 4 (D=0, ODE) exact, ham r/k=1.0 (5.4e-16)
+[PASS] Theorem 4 (D=G+, corrected) exact, ham r/k=1.0 (6.7e-16)
+[PASS] Proposition 5/6: clipped sampler exact for r >= kappa, ham r/k=1.0 (6.7e-16)
+[PASS] Theorem 4 (D=0, ODE) exact, ham r/k=1.3 (4.4e-16)
+[PASS] Theorem 4 (D=G+, corrected) exact, ham r/k=1.3 (5.5e-16)
+[PASS] Proposition 5/6: clipped sampler exact for r >= kappa, ham r/k=1.3 (5.5e-16)
+[PASS] Theorem 4 (D=0, ODE) exact, cld r/k=0.6 (1.0e-17)
+[PASS] Theorem 4 (D=G+, corrected) exact, cld r/k=0.6 (1.8e-15)
+[PASS] Proposition 6: clipped sampler output wrong for r < kappa (Gaussian), cld r/k=0.6 (1.1e-03)
+[PASS] Theorem 4 (D=0, ODE) exact, cld r/k=0.9 (9.5e-16)
+[PASS] Theorem 4 (D=G+, corrected) exact, cld r/k=0.9 (9.3e-16)
+[PASS] Proposition 6: clipped sampler output wrong for r < kappa (Gaussian), cld r/k=0.9 (9.5e-05)
+[PASS] Theorem 4 (D=0, ODE) exact, cld r/k=1.0 (9.2e-16)
+[PASS] Theorem 4 (D=G+, corrected) exact, cld r/k=1.0 (1.4e-15)
+[PASS] Proposition 5/6: clipped sampler exact for r >= kappa, cld r/k=1.0 (1.4e-15)
+[PASS] Theorem 4 (D=0, ODE) exact, cld r/k=1.3 (6.2e-18)
+[PASS] Theorem 4 (D=G+, corrected) exact, cld r/k=1.3 (9.1e-16)
+[PASS] Proposition 5/6: clipped sampler exact for r >= kappa, cld r/k=1.3 (9.1e-16)
+[PASS] control ratio 0.6: kappa(omega) = 0.9/ratio 
+[PASS] control ratio 0.6: corrected exact, clipped exact iff ratio >= 1 (clipped 4.1e-02)
+[PASS] control ratio 0.8: kappa(omega) = 0.9/ratio 
+[PASS] control ratio 0.8: corrected exact, clipped exact iff ratio >= 1 (clipped 1.0e-02)
+[PASS] control ratio 0.9: kappa(omega) = 0.9/ratio 
+[PASS] control ratio 0.9: corrected exact, clipped exact iff ratio >= 1 (clipped 2.5e-03)
+[PASS] control ratio 1.0: kappa(omega) = 0.9/ratio 
+[PASS] control ratio 1.0: corrected exact, clipped exact iff ratio >= 1 (clipped 5.5e-16)
+[PASS] control ratio 1.1: kappa(omega) = 0.9/ratio 
+[PASS] control ratio 1.1: corrected exact, clipped exact iff ratio >= 1 (clipped 4.4e-16)
+[PASS] control ratio 1.3: kappa(omega) = 0.9/ratio 
+[PASS] control ratio 1.3: corrected exact, clipped exact iff ratio >= 1 (clipped 3.3e-16)
+[PASS] control: diffusion time T identical for all ratios (T=9.2156)
+[PASS] control ratio 0.6 coincides with main sweep ratio 0.6 (omega=2, r=0.9) 
+[PASS] scalar drift: G/sigma^2 = -(d/dt) log SNR (VDM weight) 
+[PASS] W = G/sigma^2 time-independent with eigenvalues 2(r -/+ kappa) (r/k=0.8) 
+[PASS] W = G/sigma^2 time-independent with eigenvalues 2(r -/+ kappa) (r/k=1.0) 
+[PASS] W = G/sigma^2 time-independent with eigenvalues 2(r -/+ kappa) (r/k=1.3) 
+[PASS] Proposition 7(i): KL(data || Anderson model) <= J with weight G (r/k=1.0, 3 random score errors) 
+[PASS] Proposition 7(i): KL(data || Anderson model) <= J with weight G (r/k=1.3, 3 random score errors) 
+[PASS] Proposition 7(iii): J < 0 along u and J(3e)=9 J(e), unbounded below (r/k=0.6) (J=-5.24)
+[PASS] Proposition 7(iii): J < 0 along u and J(3e)=9 J(e), unbounded below (r/k=0.9) (J=-0.876)
+[PASS] mixture score = gradient of mixture log-density (finite differences) 
+[PASS] mixture score reduces to -C^{-1}(z-m) for a single Gaussian 
+[PASS] Lemma 1: forward equation holds for mixture data (r/k=0.6, G indefinite) (rel err 2.9e-06)
+[PASS] Lemma 1: forward equation holds for mixture data (r/k=1.3, G PSD) (rel err 2.7e-06)
+[PASS] Lemma 2: dS/dt = tr B + tr(GF)/2, Gaussian data (ham, r/k=0.6) 
+[PASS] Lemma 2: dS/dt = tr B + tr(GF)/2, Gaussian data (ham, r/k=1.3) 
+[PASS] Lemma 2: dS/dt = tr B + tr(GF)/2, Gaussian data (cld, r/k=0.6) 
+[PASS] Lemma 2: dS/dt = tr B + tr(GF)/2, Gaussian data (cld, r/k=1.3) 
+[PASS] Lemma 2: entropy balance for mixture data (Monte Carlo, r/k=0.6) (0.0247 vs 0.0248)
+[PASS] Lemma 2: entropy balance for mixture data (Monte Carlo, r/k=1.3) (0.0675 vs 0.0683)
+[PASS] Lemma 2 (converse): tr(GF) -> u^T G u / sigma^2 < 0 for the constructed data (-1.200)
+[PASS] rewinding identities (ham) 
+[PASS] rewinding identities (cld) 
+[PASS] Theorem 3 (a=>b): SDE noise covariance + M C(0) M^T = C(t) (ham) 
+[PASS] Theorem 3 (a=>b): SDE noise covariance + M C(0) M^T = C(t) (cld) 
+[PASS] Remark 8: entropy deficit tr(G_- F) > 0 (r/k=0.6) (7.39e-04)
+[PASS] Remark 8: entropy deficit tr(G_- F) > 0 (r/k=0.9) (2.42e-04)
+[PASS] Remark 8: entropy deficit tr(G_- F) = 0 (r/k=1.0) (0.00e+00)
+[PASS] Remark 8: entropy deficit tr(G_- F) = 0 (r/k=1.3) (0.00e+00)
+[PASS] Proposition 7(ii): J_DSM - J is independent of the model, also for indefinite W (W eigs [-1.2 -1.2  4.8  4.8])
+[PASS] paper: paired KL mean +/- s.d. (main and control) 
+[PASS] paper: Gaussian-moment predictions 0.040, 0.009, 0.0023 and ratio about 70% 
+[PASS] paper: variance shrinks in 5/5 seeds and bootstrap CI excludes 0 at every r < kappa (both sweeps) 
+[PASS] paper: paired quantities vanish for r >= kappa 
+[PASS] paper: corrected beats clipped in MMD 5/5 (0.6, 0.8) and 4/5 (0.9) in both sweeps 
+[PASS] paper: control ODE MMD^2 between 0.0007 and 0.0011 for r/k >= 0.8 (0.00075-0.00106)
+[PASS] paper: ELBO exact Gaussian, 240 cases KL <= J, max ratio 0.47 
+[PASS] paper: J = -47.1 and KL = 6.66 at r/k = 0.6, eps = 3; ODE control 58/80 
+[PASS] paper: likelihood-weighted training diverges iff r < kappa (loss < 0 by step 100, final -1e20..-1e22, error > 1e20) 
+[PASS] paper: at r = kappa the u-direction error stays near 1.0 (vs about 0.5 above) 
+[PASS] paper: Table 2 entries 
+[PASS] paper: variance shrinkage network vs exact differs by between 1% and 14%; network KL 18%-27% above exact ([0.116 0.013 0.072 0.09  0.136], [0.182 0.271 0.27  0.197 0.187])
+[PASS] paper: Table 3 entries (three seeds, per-seed extrapolation) 
+[PASS] paper: step text (KL -1.9%..+2.0%, spread <= 3.5%; log-var -1.1%..+9.1%, spread 9.8%; monotone 3/15 and 7/15; 0.032, 0.018, 0.010) 
+[PASS] paper: log-variance step changes not distinguishable from zero (|mean| <= spread for every configuration) 
+[PASS] paper: mechanism x2 at -0.20 (prediction -0.20); x1 from -0.197 to -0.016 
+[PASS] paper: GMM fit MMD^2 to two moons = 2.5e-4 (2.48e-04)
+[PASS] paper: CLD Gaussian-moment paired KL at r/k = 0.6 is about 1e-3 (1.13e-03)
+[PASS] Proposition 5: div(G_- grad p_t) != 0 for mixture data (r/k=0.6) (max rel 1.73e-01)
+[PASS] Proposition 5: div(G_- grad p_t) != 0 for mixture data (r/k=0.9) (max rel 6.17e-02)
+[PASS] Proposition 6: clipped output mean exact, Delta <= 0, tr Delta < 0 (ham, r/k=0.6) (tr Delta -2.91e-01)
+[PASS] Proposition 6: clipped output mean exact, Delta <= 0, tr Delta < 0 (ham, r/k=0.9) (tr Delta -8.51e-02)
+[PASS] Proposition 6: clipped output mean exact, Delta <= 0, tr Delta = 0 (ham, r/k=1.0) (tr Delta -2.76e-11)
+[PASS] Proposition 6: clipped output mean exact, Delta <= 0, tr Delta = 0 (ham, r/k=1.3) (tr Delta -2.96e-11)
+[PASS] Proposition 6: clipped output mean exact, Delta <= 0, tr Delta < 0 (cld, r/k=0.6) (tr Delta -5.42e-02)
+[PASS] Proposition 6: clipped output mean exact, Delta <= 0, tr Delta < 0 (cld, r/k=0.9) (tr Delta -1.62e-02)
+[PASS] Proposition 6: clipped output mean exact, Delta <= 0, tr Delta = 0 (cld, r/k=1.0) (tr Delta 1.55e-09)
+[PASS] Proposition 6: clipped output mean exact, Delta <= 0, tr Delta = 0 (cld, r/k=1.3) (tr Delta 9.11e-10)
+[PASS] Remark (Section 2.4): forward score-corrected process reproduces p_t below kappa (ham) 
+[PASS] Remark (Section 2.4): forward score-corrected process reproduces p_t below kappa (cld) 
+[PASS] Proposition 7 / Fig. 2: J along u is > 0 for r > kappa, = 0 at r = kappa, < 0 below 
+
+113/113 checks passed

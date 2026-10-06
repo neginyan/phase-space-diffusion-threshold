@@ -1,0 +1,5 @@
+# Exact versions used for all experiments and for the verification run (Python 3.13.16)
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+scikit-learn==1.9.1

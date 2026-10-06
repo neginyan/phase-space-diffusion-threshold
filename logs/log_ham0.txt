@@ -1,0 +1,6 @@
+ham 0 0.6 {'ode': np.float64(0.0283), 'naive': np.float64(0.034), 'fixed': np.float64(0.0228)} 273
+ham 0 0.8 {'ode': np.float64(0.0307), 'naive': np.float64(0.0262), 'fixed': np.float64(0.0214)} 278
+ham 0 0.9 {'ode': np.float64(0.0258), 'naive': np.float64(0.0283), 'fixed': np.float64(0.0256)} 279
+ham 0 1.0 {'ode': np.float64(0.03), 'naive': np.float64(0.0326), 'fixed': np.float64(0.0326)} 284
+ham 0 1.1 {'ode': np.float64(0.0217), 'naive': np.float64(0.0276), 'fixed': np.float64(0.0276)} 275
+ham 0 1.3 {'ode': np.float64(0.0231), 'naive': np.float64(0.0251), 'fixed': np.float64(0.0251)} 265
